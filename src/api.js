@@ -17,7 +17,7 @@ const cities = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'cities.j
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
  */
-function getDepartments(req, res) {
+function getStates(req, res) {
   try {
     return res.json(states);
   } catch (error) {
@@ -31,7 +31,7 @@ function getDepartments(req, res) {
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
  */
-function getCitiesByDepartment(req, res) {
+function getCitiesByState(req, res) {
   try {
     const { stateId } = req.query;
     
@@ -48,6 +48,6 @@ function getCitiesByDepartment(req, res) {
 }
 
 module.exports = {
-  getDepartments,
-  getCitiesByDepartment
+  getStates,
+  getCitiesByState
 };

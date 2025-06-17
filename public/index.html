@@ -5,73 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API de Estados y Ciudades de Venezuela</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>API de Estados y Ciudades de Venezuela</h1>
-        <p class="subtitle">Una API estática para consultar los estados y ciudades de Venezuela</p>
+        <p>Consulta los estados y ciudades de Venezuela.</p>
     </header>
 
     <main>
-        <section id="demo">
-            <h2>Demostración</h2>
-            
-            <div class="filter-container">
-                <div class="filter-group">
-                    <label for="stateSelect">Selecciona un estado:</label>
-                    <select id="stateSelect">
-                        <option value="">--Seleccione un estado--</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="citySearch">Buscar ciudad:</label>
-                    <input type="text" id="citySearch" placeholder="Escriba para filtrar ciudades...">
-                </div>
-            </div>
-            
-            <div class="results-container">
-                <div>
-                    <h3>Ciudades de <span id="selectedStateName">ningún estado seleccionado</span></h3>
-                    <p><span id="cityCount">0</span> ciudades encontradas</p>
-                    <ul id="cityList" class="city-list"></ul>
-                </div>
-            </div>
+        <section id="states">
+            <h2>Estados</h2>
+            <ul id="state-list"></ul>
         </section>
-
-        <section id="usage">
-            <h2>Cómo usar la API</h2>
-            
-            <div class="code-example">
-                <h3>Obtener todos los estados</h3>
-                <pre><code>fetch('src/data/states.json')
-  .then(response => response.json())
-  .then(states => console.log(states));</code></pre>
-            </div>
-            
-            <div class="code-example">
-                <h3>Obtener todas las ciudades</h3>
-                <pre><code>fetch('src/data/cities.json')
-  .then(response => response.json())
-  .then(cities => console.log(cities));</code></pre>
-            </div>
-            
-            <div class="code-example">
-                <h3>Filtrar ciudades por estado</h3>
-                <pre><code>fetch('src/data/cities.json')
-  .then(response => response.json())
-  .then(cities => {
-    const stateId = 1; // ID del estado (ej: 1 para Amazonas)
-    const citiesInState = cities.filter(city => city.stateId === stateId);
-    console.log(citiesInState);
-  });</code></pre>
-            </div>
+        <section id="cities">
+            <h2>Ciudades</h2>
+            <ul id="city-list"></ul>
         </section>
     </main>
 
+    <section id="usage">
+        <h2>Cómo usar la API</h2>
+        
+        <div class="code-example">
+            <h3>Obtener todos los estados</h3>
+            <pre><code>fetch('/api/states')
+.then(response => response.json())
+.then(states => console.log(states));</code></pre>
+        </div>
+        
+        <div class="code-example">
+            <h3>Obtener todas las ciudades</h3>
+            <pre><code>fetch('/api/cities')
+.then(response => response.json())
+.then(cities => console.log(cities));</code></pre>
+        </div>
+        
+        <div class="code-example">
+            <h3>Filtrar ciudades por estado</h3>
+            <pre><code>fetch('/api/cities?stateId=1')
+.then(response => response.json())
+.then(cities => console.log(cities));</code></pre>
+        </div>
+    </section>
+
     <footer>
-        <p>Desarrollado como API pública sin servidor para consultar los estados y ciudades de Venezuela.</p>
+        <p>Desarrollado como API pública para consultar los estados y ciudades de Venezuela.</p>
         <p>Datos actualizados en <span id="currentYear">2023</span>.</p>
     </footer>
 

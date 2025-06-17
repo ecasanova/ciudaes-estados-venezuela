@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   ],
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

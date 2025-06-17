@@ -1,8 +1,8 @@
 /**
- * index.js - Main entry point for Venezuela States and Cities API
+ * server.js - Express server for Venezuela States and Cities API
  * 
- * This file sets up an Express server to serve API endpoints for
- * Venezuela's states and cities
+ * This file sets up an Express server to provide API endpoints
+ * for Venezuela's states and cities
  */
 
 const express = require('express');
@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
 // API endpoints
-app.get('/api/states', api.getDepartments);
+app.get('/api/departments', api.getDepartments);
 app.get('/api/cities', api.getCitiesByDepartment);
 
 // Serve the index.html file for the root route

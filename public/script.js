@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     let filteredCities = [];
 
     try {
-        // Load states
-        const statesResponse = await fetch('../src/data/states.json');
+        // Load states from API
+        const statesResponse = await fetch('/api/states');
         states = await statesResponse.json();
         
-        // Load cities
-        const citiesResponse = await fetch('../src/data/cities.json');
+        // Load all cities initially
+        const citiesResponse = await fetch('/api/cities');
         cities = await citiesResponse.json();
 
         // Populate state dropdown
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     /**
      * Updates the city list based on state selection and search input
      */
-    function updateCityList() {
+    async function updateCityList() {
         const selectedStateId = parseInt(stateSelect.value, 10);
         const searchTerm = citySearch.value.toLowerCase().trim();
         
@@ -71,10 +71,19 @@ document.addEventListener('DOMContentLoaded', async () => {
             selectedStateName.textContent = 'ningún estado seleccionado';
         }
         
-        // Filter cities by state
-        filteredCities = selectedStateId 
-            ? cities.filter(city => city.stateId === selectedStateId)
-            : [...cities];
+        // Get cities by state from API or use cached data
+        if (selectedStateId) {
+            try {
+                const response = await fetch(`/api/cities?stateId=${selectedStateId}`);
+                filteredCities = await response.json();
+            } catch (error) {
+                console.error('Error fetching cities by state:', error);
+                // Fallback to client-side filtering if API call fails
+                filteredCities = cities.filter(city => city.stateId === selectedStateId);
+            }
+        } else {
+            filteredCities = [...cities];
+        }
         
         // Apply search filter if there's a search term
         if (searchTerm) {

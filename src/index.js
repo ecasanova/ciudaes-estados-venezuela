@@ -17,8 +17,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
 // API endpoints
-app.get('/api/states', api.getDepartments);
-app.get('/api/cities', api.getCitiesByDepartment);
+app.get('/api/states', api.getStates);
+app.get('/api/cities', api.getCitiesByState);
 
 // Serve the index.html file for the root route
 app.get('/', (req, res) => {

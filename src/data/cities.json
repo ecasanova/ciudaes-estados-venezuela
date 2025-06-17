@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Caracas",
+        "stateId": 1
+    },
+    {
+        "id": 2,
+        "name": "Maracaibo",
+        "stateId": 2
+    },
+    {
+        "id": 3,
+        "name": "Valencia",
+        "stateId": 3
+    },
+    {
+        "id": 4,
+        "name": "Barquisimeto",
+        "stateId": 4
+    },
+    {
+        "id": 5,
+        "name": "Maturín",
+        "stateId": 5
+    },
+    {
+        "id": 6,
+        "name": "Puerto La Cruz",
+        "stateId": 6
+    },
+    {
+        "id": 7,
+        "name": "San Cristóbal",
+        "stateId": 7
+    },
+    {
+        "id": 8,
+        "name": "Cumaná",
+        "stateId": 8
+    },
+    {
+        "id": 9,
+        "name": "La Guaira",
+        "stateId": 9
+    },
+    {
+        "id": 10,
+        "name": "Valera",
+        "stateId": 10
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "Amazonas",
+        "abbreviation": "AM"
+    },
+    {
+        "id": 2,
+        "name": "Anzoátegui",
+        "abbreviation": "AN"
+    },
+    {
+        "id": 3,
+        "name": "Apure",
+        "abbreviation": "AP"
+    },
+    {
+        "id": 4,
+        "name": "Aragua",
+        "abbreviation": "AR"
+    },
+    {
+        "id": 5,
+        "name": "Barinas",
+        "abbreviation": "BA"
+    },
+    {
+        "id": 6,
+        "name": "Bolívar",
+        "abbreviation": "BO"
+    },
+    {
+        "id": 7,
+        "name": "Carabobo",
+        "abbreviation": "CA"
+    },
+    {
+        "id": 8,
+        "name": "Cojedes",
+        "abbreviation": "CO"
+    },
+    {
+        "id": 9,
+        "name": "Delta Amacuro",
+        "abbreviation": "DA"
+    },
+    {
+        "id": 10,
+        "name": "Falcón",
+        "abbreviation": "FA"
+    },
+    {
+        "id": 11,
+        "name": "Guárico",
+        "abbreviation": "GU"
+    },
+    {
+        "id": 12,
+        "name": "Lara",
+        "abbreviation": "LA"
+    },
+    {
+        "id": 13,
+        "name": "Mérida",
+        "abbreviation": "ME"
+    },
+    {
+        "id": 14,
+        "name": "Miranda",
+        "abbreviation": "MI"
+    },
+    {
+        "id": 15,
+        "name": "Monagas",
+        "abbreviation": "MO"
+    },
+    {
+        "id": 16,
+        "name": "Nueva Esparta",
+        "abbreviation": "NE"
+    },
+    {
+        "id": 17,
+        "name": "Portuguesa",
+        "abbreviation": "PO"
+    },
+    {
+        "id": 18,
+        "name": "Sucre",
+        "abbreviation": "SU"
+    },
+    {
+        "id": 19,
+        "name": "Táchira",
+        "abbreviation": "TA"
+    },
+    {
+        "id": 20,
+        "name": "Trujillo",
+        "abbreviation": "TR"
+    },
+    {
+        "id": 21,
+        "name": "Vargas",
+        "abbreviation": "VA"
+    },
+    {
+        "id": 22,
+        "name": "Yaracuy",
+        "abbreviation": "YA"
+    },
+    {
+        "id": 23,
+        "name": "Zulia",
+        "abbreviation": "ZU"
+    }
+]

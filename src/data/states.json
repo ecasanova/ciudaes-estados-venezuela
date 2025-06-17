@@ -113,5 +113,10 @@
         "id": 23,
         "name": "Zulia",
         "abbreviation": "ZU"
+    },
+    {
+        "id": 24,
+        "name": "Distrito Capital",
+        "abbreviation": "DC"
     }
 ]

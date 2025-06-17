@@ -262,7 +262,7 @@
     {
         "id": 48,
         "name": "Caracas",
-        "stateId": 14
+        "stateId": 24
     },
     {
         "id": 49,
@@ -423,5 +423,30 @@
         "id": 80,
         "name": "Machiques",
         "stateId": 23
+    },
+    {
+        "id": 81,
+        "name": "El Hatillo",
+        "stateId": 24
+    },
+    {
+        "id": 82,
+        "name": "Chacao",
+        "stateId": 24
+    },
+    {
+        "id": 83,
+        "name": "Baruta",
+        "stateId": 24
+    },
+    {
+        "id": 84,
+        "name": "Sucre (Petare)",
+        "stateId": 24
+    },
+    {
+        "id": 85,
+        "name": "Libertador",
+        "stateId": 24
     }
 ]

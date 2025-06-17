@@ -1,52 +1,427 @@
 [
     {
         "id": 1,
-        "name": "Caracas",
+        "name": "Puerto Ayacucho",
         "stateId": 1
     },
     {
         "id": 2,
-        "name": "Maracaibo",
-        "stateId": 2
+        "name": "San Fernando de Atabapo",
+        "stateId": 1
     },
     {
         "id": 3,
-        "name": "Valencia",
-        "stateId": 3
+        "name": "Maroa",
+        "stateId": 1
     },
     {
         "id": 4,
-        "name": "Barquisimeto",
-        "stateId": 4
+        "name": "La Esmeralda",
+        "stateId": 1
     },
     {
         "id": 5,
-        "name": "Maturín",
-        "stateId": 5
+        "name": "Samariapo",
+        "stateId": 1
     },
     {
         "id": 6,
-        "name": "Puerto La Cruz",
-        "stateId": 6
+        "name": "Barcelona",
+        "stateId": 2
     },
     {
         "id": 7,
-        "name": "San Cristóbal",
-        "stateId": 7
+        "name": "Puerto La Cruz",
+        "stateId": 2
     },
     {
         "id": 8,
-        "name": "Cumaná",
-        "stateId": 8
+        "name": "Anaco",
+        "stateId": 2
     },
     {
         "id": 9,
-        "name": "La Guaira",
-        "stateId": 9
+        "name": "El Tigre",
+        "stateId": 2
     },
     {
         "id": 10,
-        "name": "Valera",
+        "name": "Lechería",
+        "stateId": 2
+    },
+    {
+        "id": 11,
+        "name": "Cantaura",
+        "stateId": 2
+    },
+    {
+        "id": 12,
+        "name": "San Fernando de Apure",
+        "stateId": 3
+    },
+    {
+        "id": 13,
+        "name": "Achaguas",
+        "stateId": 3
+    },
+    {
+        "id": 14,
+        "name": "Guasdualito",
+        "stateId": 3
+    },
+    {
+        "id": 15,
+        "name": "Elorza",
+        "stateId": 3
+    },
+    {
+        "id": 11,
+        "name": "Maracay",
+        "stateId": 4
+    },
+    {
+        "id": 12,
+        "name": "Turmero",
+        "stateId": 4
+    },
+    {
+        "id": 13,
+        "name": "La Victoria",
+        "stateId": 4
+    },
+    {
+        "id": 14,
+        "name": "Cagua",
+        "stateId": 4
+    },
+    {
+        "id": 15,
+        "name": "Barinas",
+        "stateId": 5
+    },
+    {
+        "id": 16,
+        "name": "Barinitas",
+        "stateId": 5
+    },
+    {
+        "id": 17,
+        "name": "Sabaneta",
+        "stateId": 5
+    },
+    {
+        "id": 18,
+        "name": "Ciudad Bolívar",
+        "stateId": 6
+    },
+    {
+        "id": 19,
+        "name": "Ciudad Guayana",
+        "stateId": 6
+    },
+    {
+        "id": 20,
+        "name": "Upata",
+        "stateId": 6
+    },
+    {
+        "id": 21,
+        "name": "Caicara del Orinoco",
+        "stateId": 6
+    },
+    {
+        "id": 22,
+        "name": "Valencia",
+        "stateId": 7
+    },
+    {
+        "id": 23,
+        "name": "Puerto Cabello",
+        "stateId": 7
+    },
+    {
+        "id": 24,
+        "name": "Guacara",
+        "stateId": 7
+    },
+    {
+        "id": 25,
+        "name": "Los Guayos",
+        "stateId": 7
+    },
+    {
+        "id": 26,
+        "name": "San Carlos",
+        "stateId": 8
+    },
+    {
+        "id": 27,
+        "name": "Tinaquillo",
+        "stateId": 8
+    },
+    {
+        "id": 28,
+        "name": "Tinaco",
+        "stateId": 8
+    },
+    {
+        "id": 29,
+        "name": "Tucupita",
+        "stateId": 9
+    },
+    {
+        "id": 30,
+        "name": "Curiapo",
+        "stateId": 9
+    },
+    {
+        "id": 31,
+        "name": "Pedernales",
+        "stateId": 9
+    },
+    {
+        "id": 32,
+        "name": "Coro",
         "stateId": 10
+    },
+    {
+        "id": 33,
+        "name": "Punto Fijo",
+        "stateId": 10
+    },
+    {
+        "id": 34,
+        "name": "Tucacas",
+        "stateId": 10
+    },
+    {
+        "id": 35,
+        "name": "San Juan de los Morros",
+        "stateId": 11
+    },
+    {
+        "id": 36,
+        "name": "Valle de la Pascua",
+        "stateId": 11
+    },
+    {
+        "id": 37,
+        "name": "Calabozo",
+        "stateId": 11
+    },
+    {
+        "id": 38,
+        "name": "Zaraza",
+        "stateId": 11
+    },
+    {
+        "id": 39,
+        "name": "Barquisimeto",
+        "stateId": 12
+    },
+    {
+        "id": 40,
+        "name": "Cabudare",
+        "stateId": 12
+    },
+    {
+        "id": 41,
+        "name": "Carora",
+        "stateId": 12
+    },
+    {
+        "id": 42,
+        "name": "Quíbor",
+        "stateId": 12
+    },
+    {
+        "id": 43,
+        "name": "Mérida",
+        "stateId": 13
+    },
+    {
+        "id": 44,
+        "name": "Ejido",
+        "stateId": 13
+    },
+    {
+        "id": 45,
+        "name": "El Vigía",
+        "stateId": 13
+    },
+    {
+        "id": 46,
+        "name": "Tovar",
+        "stateId": 13
+    },
+    {
+        "id": 47,
+        "name": "Los Teques",
+        "stateId": 14
+    },
+    {
+        "id": 48,
+        "name": "Caracas",
+        "stateId": 14
+    },
+    {
+        "id": 49,
+        "name": "Guarenas",
+        "stateId": 14
+    },
+    {
+        "id": 50,
+        "name": "Guatire",
+        "stateId": 14
+    },
+    {
+        "id": 51,
+        "name": "Maturín",
+        "stateId": 15
+    },
+    {
+        "id": 52,
+        "name": "Caripito",
+        "stateId": 15
+    },
+    {
+        "id": 53,
+        "name": "Punta de Mata",
+        "stateId": 15
+    },
+    {
+        "id": 54,
+        "name": "La Asunción",
+        "stateId": 16
+    },
+    {
+        "id": 55,
+        "name": "Porlamar",
+        "stateId": 16
+    },
+    {
+        "id": 56,
+        "name": "Juan Griego",
+        "stateId": 16
+    },
+    {
+        "id": 57,
+        "name": "Pampatar",
+        "stateId": 16
+    },
+    {
+        "id": 58,
+        "name": "Guanare",
+        "stateId": 17
+    },
+    {
+        "id": 59,
+        "name": "Acarigua",
+        "stateId": 17
+    },
+    {
+        "id": 60,
+        "name": "Araure",
+        "stateId": 17
+    },
+    {
+        "id": 61,
+        "name": "Cumaná",
+        "stateId": 18
+    },
+    {
+        "id": 62,
+        "name": "Carúpano",
+        "stateId": 18
+    },
+    {
+        "id": 63,
+        "name": "Güiria",
+        "stateId": 18
+    },
+    {
+        "id": 64,
+        "name": "San Cristóbal",
+        "stateId": 19
+    },
+    {
+        "id": 65,
+        "name": "Rubio",
+        "stateId": 19
+    },
+    {
+        "id": 66,
+        "name": "Táriba",
+        "stateId": 19
+    },
+    {
+        "id": 67,
+        "name": "La Fría",
+        "stateId": 19
+    },
+    {
+        "id": 68,
+        "name": "Trujillo",
+        "stateId": 20
+    },
+    {
+        "id": 69,
+        "name": "Valera",
+        "stateId": 20
+    },
+    {
+        "id": 70,
+        "name": "Boconó",
+        "stateId": 20
+    },
+    {
+        "id": 71,
+        "name": "La Guaira",
+        "stateId": 21
+    },
+    {
+        "id": 72,
+        "name": "Catia La Mar",
+        "stateId": 21
+    },
+    {
+        "id": 73,
+        "name": "Carayaca",
+        "stateId": 21
+    },
+    {
+        "id": 74,
+        "name": "San Felipe",
+        "stateId": 22
+    },
+    {
+        "id": 75,
+        "name": "Yaritagua",
+        "stateId": 22
+    },
+    {
+        "id": 76,
+        "name": "Chivacoa",
+        "stateId": 22
+    },
+    {
+        "id": 77,
+        "name": "Maracaibo",
+        "stateId": 23
+    },
+    {
+        "id": 78,
+        "name": "Cabimas",
+        "stateId": 23
+    },
+    {
+        "id": 79,
+        "name": "Ciudad Ojeda",
+        "stateId": 23
+    },
+    {
+        "id": 80,
+        "name": "Machiques",
+        "stateId": 23
     }
 ]
